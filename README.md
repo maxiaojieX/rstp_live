@@ -15,4 +15,4 @@
                 rtsp_transport : ['udp', 'tcp', 'udp_multicast', 'http']
             }<br>flv=http://IPAddress:port/live/202.flv ](#setp2) 
 
-* [6、问题记录<br>【谷歌浏览器同时打卡多个flv地址阻塞？解决方案：使用nginx中专一次，配置nginx的http指向node】<br>【为什么不使用ffmpeg直接把rstp转为rtmp？答：rtmp需要使用flash，但是谷歌浏览器正在抛弃flash，将在20年12月份彻底禁用】<br>【流量问题？ffmpeg拉流会一直消耗流量，可以使用程序执行cmd命令来控制启停node,但是这里遇到了坑，使用程序执行cmd时，如果后台允许cmd，使用flv会出现黑屏的情况，所以程序执行cmd启动node时需要将cmd窗口抛出来在桌面显示。】](#setp2) 
+* [6、问题记录<br>【谷歌浏览器同时打卡多个flv地址阻塞？解决方案：使用nginx中专一次，配置nginx的http指向node】<br>【为什么不使用ffmpeg直接把rstp转为rtmp？答：rtmp需要使用flash，但是谷歌浏览器正在抛弃flash，将在20年12月份彻底禁用】<br>【流量问题？ffmpeg拉流会一直消耗流量，可以使用程序执行cmd命令来控制启停node,但是这里遇到了坑，使用程序执行cmd时，如果后台运行cmd，使用flv会出现黑屏的情况，所以程序执行cmd启动node时需要将cmd窗口抛出来在桌面显示。】](#setp2) 
